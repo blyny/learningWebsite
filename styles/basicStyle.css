@@ -5,10 +5,23 @@ html {
         font-style: normal;
 }
 
+.backgroundOne {
+    background-color: #ff9500;
+
+}
+
 .header {
-    font-size: 22px;
+    font-size: 25px;
     position: absolute;
     top: 40px;
+    left: 240px;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 2;
+    position: absolute;
+    top: 150px;
     left: 240px;
 }
 
@@ -16,13 +29,8 @@ html {
     font-size: 23px;
     line-height: 2;
     position: absolute;
-    top: 140px;
+    top: 200px;
     left: 240px;
-}
-
-.backgroundOne {
-    background-color: #ff9500;
-    
 }
 
 .myImage {
@@ -31,9 +39,10 @@ html {
     right: 240px;
 }
 
-.myLinks{
+.myLinks {
     font-size: 23px;
     position: absolute;
     bottom: 150px;
     left: 240px;
 }
+
