@@ -5,6 +5,13 @@ html {
         font-style: normal;
 }
 
+body {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #b7afff;
+    padding: 20px 20px 20px 20px;
+}
+
 .backgroundOne {
     background-color: #ff9500;
 
