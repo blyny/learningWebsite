@@ -1,5 +1,5 @@
 function nextPage() {
-    window.location.href = "valentineYes.html";
+    window.location.href = "valentine-yes.html";
 }
 
 function moveButton() {
