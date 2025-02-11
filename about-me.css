@@ -1,0 +1,23 @@
+html {
+    font-size: 10px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+        font-style: normal;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #b7afff;
+    padding: 30px 30px 30px 30px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
