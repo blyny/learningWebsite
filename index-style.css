@@ -1,0 +1,153 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    background-color: #f0f0f0;
+    justify-content: center; /* Center horizontally */
+    padding-top: 20px; /* Add some space at the top */
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Top Section Container */
+.top-section {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    justify-content: center; /* Horizontally center the items */
+    gap: 20px; /* Space between the text and the line */
+    padding: 5px; /* Add some padding at the top */
+}
+
+/* Text Styles */
+.header-text {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #333; /* Text color */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+.gradient {
+    padding: 5px 10px; /* Add some padding around the text */
+    background: linear-gradient(45deg, #c66fee, #6830ff); /* Gradient background */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Space between buttons */
+    margin-top: 30px; /* Space between text and buttons */
+}
+
+.btn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Poppins", serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #9c9595;
+}
+
+.mid-section {
+    margin-top: 40px; /* Space between top section and middle section */
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Optional: Add rounded corners */
+    max-width: 800px; /* Limit width for better readability */
+    width: 100%; /* Ensure it takes full width on smaller screens */
+    text-align: left; /* Center text */
+
+}
+.mid-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.small-gradient {
+    background: linear-gradient(45deg, #e3a7ff, #b093ff); /* Gradient background */
+    background-size: 100% 15px; /* Width: 100%, Height: 3px */
+    background-repeat: no-repeat; /* Prevent the gradient from repeating */
+    background-position: 100% 70%; /* Position the gradient slightly below the text */
+    padding-bottom: 3px; /* Add space between the text and the gradient */
+    border-radius: 10px;
+    
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.github-button {
+    display: inline-flex; /* Align icon and text */
+    align-items: center; /* Vertically center icon and text */
+    border-radius: 5px; /* Rounded corners */
+}
+/* GitHub Icon Styles */
+.github-icon {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+}
+.linkedin-button {
+    display: inline-flex; /* Align icon and text */
+    align-items: center; /* Vertically center icon and text */
+    background-color: #0077b5; /* LinkedIn's brand color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* LinkedIn Icon Styles */
+.linkedin-icon {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+    fill: white; /* Icon color */
+}
+@media (max-width: 768px) {
+    .header-text {
+        font-size: 1.2rem; /* Smaller font size for smaller screens */
+    }
+
+    .top-section {
+        gap: 10px; /* Less space between items on smaller screens */
+        padding: 10px; /* Less padding on smaller screens */
+    }
+
+    .button-row {
+        flex-direction: column; /* Stack buttons vertically on small screens */
+        gap: 10px;
+    }
+
+    .middle-section {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    .middle-section h2 {
+        font-size: 1.8rem; /* Smaller heading on smaller screens */
+    }
+
+    .middle-section p {
+        font-size: 1rem; /* Smaller text on smaller screens */
+    }
+}

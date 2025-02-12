@@ -1,0 +1,85 @@
+html {
+    font-size: 10px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #b7afff;
+    padding: 30px 30px 30px 30px;
+}
+
+.btn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #9c9595;
+}
+
+.line {
+    width: 0.5rem; /* Relative width (5px) */
+    height: 9.8rem; /* Relative height (98px) */
+    background-color: black;
+    position: absolute;
+    top: 3rem; /* Relative position (30px) */
+    left: 10%; /* Position relative to the left edge */
+}
+
+.header {
+    font-size: 2.5rem; /* Relative font size (25px) */
+    position: absolute;
+    top: -1rem; /* Relative position (-10px) */
+    left: calc(10% + 2rem); /* Position next to the .line */
+}
+
+.description {
+    font-size: 2.5rem; /* Relative font size (25px) */
+    line-height: 1.5; /* Adjusted line height */
+    position: absolute;
+    top: 5.5rem; /* Relative position (55px) */
+    left: calc(10% + 2rem); /* Position next to the .line */
+}
+.bodyWords {
+    font-size: 23px;
+    line-height: 2;
+    position: absolute;
+    top: 200px;
+    left: 240px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 115px;
+    margin-left: 20px;
+
+}
+
+.myImage {
+    position: absolute;
+    top: 70px;
+    right: 240px;
+}
+
+.myLinks {
+    font-size: 23px;
+    position: absolute;
+    top: 12px;
+    left: 985px;
+}

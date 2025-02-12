@@ -1,5 +1,5 @@
 function go_to_home() {
-    window.location.href = "index.html"
+    window.location.href = "index.html";
 }
 
 function go_to_project() {
