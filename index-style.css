@@ -13,7 +13,7 @@ html {
 
 body {
     display: flex;
-    background-color: #000000;
+    background-color: #161414;
     justify-content: center; /* Center horizontally */
     padding-top: 20px; /* Add some space at the top */
     flex-direction: column;
@@ -38,11 +38,20 @@ body {
     white-space: nowrap; /* Prevent text from wrapping */
 }
 .gradient {
-    padding: 5px 10px; /* Add some padding around the text */
+    padding: 5px 8px; /* Add some padding around the text */
     background: linear-gradient(45deg, #c66fee, #6830ff); /* Gradient background */
     border-radius: 10px; /* Optional: Add rounded corners */
 }
 
+.small-gradient-1 {
+    background: linear-gradient(45deg, hsl(281, 100%, 47%), #c7b2ff); /* Gradient background */
+    background-size: 100% 23.5px; /* Width: 100%, Height: 3px */
+    background-repeat: no-repeat; /* Prevent the gradient from repeating */
+    background-position: 100% 70%; /* Position the gradient slightly below the text */
+    padding-bottom: 10px; /* Add space between the text and the gradient */
+    border-radius: 10px;
+    
+}
 
 .buttons {
     display: flex;

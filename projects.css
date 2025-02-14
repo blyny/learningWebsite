@@ -1,0 +1,52 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    background-color: #161414;
+    justify-content: center; /* Center horizontally */
+    padding-top: 20px; /* Add some space at the top */
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.paragraph {
+    margin-top: 30px;
+    color:#ffffff;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Space between buttons */
+    margin-top: 30px; /* Space between text and buttons */
+}
+
+.btn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Poppins", serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #9c9595;
+}
