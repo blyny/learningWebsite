@@ -18,12 +18,24 @@ body {
     padding-top: 20px; /* Add some space at the top */
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
 }   
 
-.paragraph {
-    margin-top: 30px;
-    color:#ffffff;
+.title-p {
+    color: #ffffff;
+    text-align: left; /* Align text to the left */
+    gap: 20px; /* Space between the text and the line */
+    padding: 5px; /* Add some padding at the top */
+    align-self: flex-start; /* Align this item to the left */
+    width: 100%; /* Ensure it spans the full width */
+    max-width: 800px; /* Limit width for better readability */
+    margin-left: 200px; /* Optional: Add some left margin for spacing */
+    font-size: 2.25rem;
+}
+.title-gradient {
+    background-color: #6830ff;
+    background: linear-gradient(45deg, hsl(124, 85%, 60%), #ab8aff); /* Gradient background */
+    border-radius: 10px;
+    padding: 2px 5px;
 
 }
 
@@ -49,4 +61,22 @@ body {
 
 .btn:hover {
     background-color: #9c9595;
+}
+
+.top-section {
+    display: flex;
+    margin-top: 40px; /* Space between top section and middle section */
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Optional: Add rounded corners */
+    max-width: 800px; /* Limit width for better readability */
+    width: 100%; /* Ensure it takes full width on smaller screens */
+    text-align: center; /* Center text */
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    color:#000000;
 }
