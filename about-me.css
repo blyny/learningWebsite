@@ -25,11 +25,12 @@ body {
     text-align: left; /* Align text to the left */
     gap: 20px; /* Space between the text and the line */
     padding: 5px; /* Add some padding at the top */
-    align-self: flex-start; /* Align this item to the left */
+    align-self: center; /* Align this item to the left */
     width: 100%; /* Ensure it spans the full width */
     max-width: 800px; /* Limit width for better readability */
-    margin-left: 200px; /* Optional: Add some left margin for spacing */
+    margin-left: 0%; /* Optional: Add some left margin for spacing */
     font-size: 2.25rem;
+    margin-top: 3%;
 }
 .title-gradient {
     background-color: #6830ff;
@@ -43,7 +44,7 @@ body {
     display: flex;
     justify-content: center; /* Center buttons horizontally */
     gap: 20px; /* Space between buttons */
-    margin-top: 30px; /* Space between text and buttons */
+    margin-top: 0%; /* Space between text and buttons */
 }
 
 .btn {
@@ -65,16 +66,15 @@ body {
 
 .top-section {
     display: flex;
-    margin-top: 40px; /* Space between top section and middle section */
+    margin-top: 20px; /* Space between top section and middle section */
     padding: 20px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px; /* Optional: Add rounded corners */
     max-width: 800px; /* Limit width for better readability */
     width: 100%; /* Ensure it takes full width on smaller screens */
-    text-align: center; /* Center text */
-    justify-content: center;
-    align-items: center;
+    text-align: left; /* Center text */
+
 }
 
 .paragraph {
